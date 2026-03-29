@@ -181,21 +181,114 @@ These are the most common mistakes that Superpixels thinking helps you avoid. Wh
 
 ---
 
-## Affiliate & Review Site Patterns
+## Applying Superpixels by Site Type
 
-Specific Superpixels for sites that monetize through product recommendations.
+When Claude is building a site, identify the site type first, then prioritize the patterns that matter most for that context. Every site type has different visitor expectations, objections, and decision points — Superpixels should meet visitors where they are.
 
-| Pattern | What it does | Real example |
-|---------|-------------|--------------|
-| Smart sorting/filtering | Filtering options that make it feel like you're on the manufacturer's site, not an affiliate site | Experte.com antivirus sorting feels like an official product site |
-| Detailed data tables | Present product data in expert-level tables with tabs for different data views | BatDigest uses tabbed data tables that show deep product knowledge |
-| Sticky affiliate link | Current recommendation stays pinned as you scroll through the review | SiteBuilderReport pins the affiliate link until the next product section |
-| To-the-point product headers | Clean headers that instantly tell you which product is best for each use case | Audio-Direct.com uses clean headers to match product to use case |
-| Article-background product highlights | On non-white backgrounds, give products a white box to make them pop | Inverse uses white product boxes against their colored article background |
-| Custom FAQ icons | Per-question icons in FAQ sections instead of generic chevrons | OhSoSpotless uses unique icons for each FAQ question |
-| Carousel recommendations | Swipeable product recommendation carousels within content | Elle.com uses affiliate carousels within articles |
-| Price range filters | Amazon-like price sliders on review/recommendation pages | Heavy.com adds pricing filters to affiliate recommendation pages |
-| User polls within reviews | Let readers vote on products and display aggregate results as social proof | SoundGuys shows poll results with 20K+ votes alongside audio samples |
+### Local Service Businesses (plumbers, dentists, lawyers, HVAC, pest control, etc.)
+
+Visitors arrive with urgency and skepticism. They want to know: are you real, are you nearby, and can I trust you with my home/health/money?
+
+| Priority | Pattern | Implementation |
+|----------|---------|---------------|
+| **Critical** | Live local time + business hours | Show "Open now - closes at 6pm" with live clock next to phone number. Removes the "are they even open?" friction |
+| **Critical** | Service area proof | Instead of a generic map, show "We completed 12 jobs in [visitor's city] this month" or a live job counter per area |
+| **High** | Team photos that feel real | Team member photos in actual work settings (on a roof, in a truck, at a job site) — not stock headshots. Photo-to-video crossfade showing them in action |
+| **High** | Review response personality | Don't just display Google reviews — show the owner's responses. Active, personal responses to reviews build more trust than the reviews themselves |
+| **High** | Seasonal/weather-aware CTAs | "It's 95°F today — your AC is working harder than ever. Schedule a tune-up before it fails." or "Storm season starts next week — when did you last check your roof?" |
+| **Medium** | Years-in-business live counter | "Serving [City] for 4,847 days" is more memorable than "13 years experience" |
+| **Medium** | Before/after sliders | Interactive before/after comparison sliders for visual services (landscaping, painting, remodeling, dental) |
+| **Medium** | Neighborhood familiarity | "We know [Neighborhood] — we've done 47 jobs on streets within a mile of you" with a subtle density map |
+| **Low** | License/insurance display | Instead of burying credentials in the footer, show a verification badge that expands to show actual license numbers, insurance details, and bond info |
+| **SuperHook** | "We answer our own phones" | Call out the pain of automated phone trees: "No phone tree. No hold music. A real person picks up, usually within 3 rings." |
+| **SuperHook** | "We'll tell you if you don't need us" | "Half the drain calls we get can be fixed with a $4 part from the hardware store. We'll tell you that over the phone before we charge you for a visit." |
+
+### eCommerce (DTC brands, Shopify stores, product companies)
+
+Visitors are comparison shopping. They want to know: is this product real, is it worth the price, and will the company stand behind it?
+
+| Priority | Pattern | Implementation |
+|----------|---------|---------------|
+| **Critical** | Product-to-video crossfade | Product photos that play a short video loop on hover showing the product in use, from multiple angles, or being unboxed |
+| **Critical** | Branded content section | Don't call your blog "Blog" — name it, give it a logo, make it feel like a destination. BeautyBay's "Edited" is the gold standard |
+| **High** | Real customer photos alongside studio shots | Mix professional photography with actual customer-submitted photos. The contrast makes both more trustworthy |
+| **High** | Smart product filtering | Filtering that feels like you're on the manufacturer's site: "Best for [use case]", "Works with [thing you already own]", not just price/color/size |
+| **High** | Transparent pricing breakdowns | Show exactly what goes into the price: materials, labor, margin. Everlane pioneered this. It turns price objections into trust |
+| **Medium** | Post-purchase personality | Order confirmation emails with personality, unexpected copy, or a personal note from the founder. This is the most-opened email you'll ever send — don't waste it with "Your order has been received" |
+| **Medium** | Escalating loyalty interactions | Repeat customers see different UI — a subtle "Welcome back" banner, early access flags, or loyalty tier indicators that make them feel recognized |
+| **Medium** | Inventory honesty | "Only 3 left" is overplayed. Instead: "We make these in batches of 200. This batch is 80% claimed. Next batch arrives March 15." Real scarcity beats fake urgency |
+| **Low** | Packaging preview | Show the actual unboxing experience — if you've invested in packaging, let people see it before they buy |
+| **SuperHook** | "Yes, you can return it" | Call out the return anxiety upfront: "If it doesn't fit, we pay for the return shipping. No restocking fee. No questions. We've processed 12,000 returns this year because we'd rather you be happy." |
+| **SuperHook** | "We're not the cheapest" | "You can find cheaper [product] on Amazon. Here's why people pay more for ours:" followed by specific, honest differentiation |
+
+### SaaS & Software (web apps, developer tools, B2B platforms)
+
+Visitors are evaluating. They want to know: will this actually solve my problem, can I trust it with my data, and how painful is onboarding?
+
+| Priority | Pattern | Implementation |
+|----------|---------|---------------|
+| **Critical** | Weighted testimonials | Company logos + role titles + specific metrics next to testimonials. "Saved us 12 hours/week" with the SAP logo hits different than "Great tool! — John" |
+| **Critical** | Social proof on login page | Put your best testimonial on the login page. SimilarWeb and Wistia do this — the login page gets daily traffic from existing users, and some from evaluating prospects |
+| **High** | Cancellation transparency | SuperHook: "We'll email you twice before your annual renewal with a one-click cancel link." This directly addresses subscription fatigue and builds massive trust |
+| **High** | Open metrics dashboard | Show real business metrics publicly — uptime, response time, customer count, revenue. BannerBear does this. It signals confidence |
+| **High** | Interactive product demos | Instead of static screenshots, embed actual interactive UI that visitors can click through. Let them feel the product before signing up |
+| **Medium** | Status page personality | Your status page doesn't have to be a generic green-dots dashboard. Add incident post-mortems with personality, honest timelines, and what you learned |
+| **Medium** | Onboarding progress gamification | Not a generic progress bar — contextual milestones that celebrate the specific things the user just accomplished: "You just connected your first data source. 73% of users who do this stick around for a year." |
+| **Medium** | Documentation as product | Make your docs beautiful enough that developers want to browse them. Stripe and Webflow set the standard. Ugly docs signal ugly code |
+| **Low** | Changelog as content | Turn your changelog into a narrative — not just bullet points, but short stories about why each change was made and who asked for it |
+| **SuperHook** | "This works in any browser, because that's our job" | Instead of "best viewed in Chrome," show confidence in your engineering. Especially powerful for web dev tools |
+| **SuperHook** | "We know you're comparing us to [competitor]" | Create a brutally honest comparison page. Acknowledge what the competitor does better. Visitors are going to compare anyway — own the narrative |
+
+### Affiliate & Review Sites (product reviews, comparison sites, niche authority sites)
+
+Visitors are skeptical. Every other site claims to be unbiased. They want to know: did you actually test this, and are you just pushing whatever pays the highest commission?
+
+| Priority | Pattern | Implementation |
+|----------|---------|---------------|
+| **Critical** | Review methodology transparency | Dedicated pages explaining HOW you test. CNET has separate "how we test [category]" articles for each product type. Put the methodology link in your top nav, not buried in a footer |
+| **Critical** | Research effort display | "47 hours of testing across 23 products" with visual breakdown. SleepSources shows hours and products considered — it adds weight to every recommendation |
+| **High** | Brutal honesty callouts | Openly say when you use a product daily but can't fully recommend it. WindowsCentral does this and the trust impact is massive |
+| **High** | Sticky contextual recommendations | Current top pick stays pinned as you scroll, updating when you reach the next product section. SiteBuilderReport pioneered this |
+| **High** | User polls and voting | Let readers vote on products and show aggregate results. SoundGuys shows 20K+ votes alongside actual audio samples you can listen to |
+| **Medium** | Expert-level data tables | Tabbed data views that show you know the product category deeply. BatDigest's approach signals genuine expertise, not surface-level reviews |
+| **Medium** | Smart sorting/filtering | Filters that make it feel like you're on the manufacturer's site: by use case, compatibility, skill level — not just price |
+| **Medium** | Price tracking with alerts | Historical price charts and email alerts for drops. Turns a one-time visit into a relationship |
+| **Low** | Rating overlays on product images | Embed scores directly into product photography. BaseballBatBros puts detailed ratings inside their product images |
+| **SuperHook** | "Most review sites are lying to you" | Thingtesting calls out that most reviews are promotional, then explains their different approach. Risky but powerful if you can back it up |
+| **SuperHook** | "We make money when you click these links" | Radical transparency about the business model. "Yes, we earn a commission. No, it doesn't change our ranking. Here's proof: our #1 pick pays us less than #3." |
+
+### News & Media (publications, magazines, content-first sites)
+
+Visitors want depth, credibility, and a reading experience that respects their time. They're deciding: should I trust this source, and is this worth my attention?
+
+| Priority | Pattern | Implementation |
+|----------|---------|---------------|
+| **Critical** | Clean information-dense headers | Pack author, date, read time, update date, and section into the header without it feeling overwhelming. BusinessNewsDaily does this well |
+| **Critical** | Double navigation | Different nav on homepage vs article pages. TIME, Chron, and Remodelista all switch navigation contextually — what readers need on the homepage is not what they need mid-article |
+| **High** | Per-section progress indicators | Table of contents with progress bars or scroll position indicators. AmericanPressInstitute shows per-section progress — readers know exactly where they are in long pieces |
+| **High** | Early article social proof | Show engagement signals (comments, shares, expert reactions) before the content, not after. If 200 people shared this article, that changes how a new reader approaches it |
+| **Medium** | Author personality | Actual author bios with personality, not corporate headshots with "John covers technology." Show their beat, their perspective, maybe their contrarian take |
+| **Medium** | Scroll-direction footer | Footer reappears when scrolling back up. NYMag does this — it's useful and unexpected |
+| **Medium** | Related content rewriting | Related post headlines rewritten to be more compelling than the actual titles. VeryWellHealth does this — it dramatically increases click-through on related content |
+| **Low** | Reading environment controls | Let readers adjust font size, toggle dark mode, or save their position. Small controls that signal you care about the reading experience |
+| **SuperHook** | "This story was updated 4 times today" | Show live update counts and timestamps. For breaking or evolving stories, this signals you're actively covering it, not just publishing and walking away |
+| **SuperHook** | "We got this wrong" | Visible corrections and updates when facts change, not buried at the bottom. Radical editorial honesty builds the kind of trust that creates subscribers |
+
+### Portfolio & Personal Brand (freelancers, agencies, consultants, creators)
+
+Visitors are evaluating YOU. They want to know: is this person actually good, are they the right fit, and what's it like to work with them?
+
+| Priority | Pattern | Implementation |
+|----------|---------|---------------|
+| **Critical** | Work that speaks | Case studies with before/after, the specific problem, and measurable results. Interactive before/after sliders for visual work |
+| **Critical** | Personality in every corner | This is the one site type where personality can go everywhere. Theme name Easter eggs, robots.txt jokes, custom 404 pages, hidden messages in source code — your personal brand IS the product |
+| **High** | Process transparency | Show exactly how you work — not a generic "1. Discover 2. Design 3. Deliver" but the actual messy, real process with tools, timelines, and decision points |
+| **High** | Recognizable client logos with context | Don't just show logos — show the specific project, the result, and ideally a quote. Weighted testimonials with role titles and company size |
+| **Medium** | Active online presence proof | Embed recent tweets, talks, or contributions. Show you're active in the community, not just selling to it |
+| **Medium** | Custom scroll-to-top | Theme it to your industry — a rocket for a startup consultant, a cursor arrow for a designer, a terminal prompt for a developer |
+| **Low** | Availability indicator | "Currently booking for Q2 2026" or "2 project slots open" — real scarcity without the fake urgency |
+| **SuperHook** | "I'll tell you if I'm not the right fit" | "I turn down about 40% of projects that come through. Here's a list of specialists I recommend for work outside my wheelhouse." Instantly positions you as someone who values quality over revenue |
+| **SuperHook** | "Here's exactly what I charge" | Transparent pricing or pricing ranges. Most consultants hide pricing — showing it filters prospects and signals confidence |
 
 ---
 

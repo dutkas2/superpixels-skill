@@ -44,7 +44,14 @@ The skill will:
 | 8 | **Visual Craft** | Pixel-level details — brand-matched gradients, internal vs external link styling, rating overlays on product images |
 | 9 | **Branded Content Areas** | Give your blog/content section its own name, logo, and visual identity |
 
-Plus: a **Missed Opportunities audit** (12 common design/usability mistakes) and **Affiliate/Review Site patterns** (9 patterns specific to product recommendation sites).
+Plus: a **Missed Opportunities audit** (12 common design/usability mistakes) and **site-type-specific guidance** with prioritized patterns for:
+
+- **Local Service Businesses** — plumbers, dentists, lawyers, HVAC (urgency + trust)
+- **eCommerce** — DTC brands, Shopify stores (comparison shopping + purchase confidence)
+- **SaaS & Software** — web apps, B2B platforms (evaluation + onboarding)
+- **Affiliate & Review Sites** — product reviews, comparison sites (skepticism + methodology)
+- **News & Media** — publications, content-first sites (credibility + reading experience)
+- **Portfolio & Personal Brand** — freelancers, agencies, creators (personality + proof)
 
 ## Framework-Agnostic
 
