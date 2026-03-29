@@ -353,10 +353,77 @@ of the specific element, not full-page shots — detail matters for Superpixels.
 
 ---
 
-## Philosophy
+## Philosophy & Principles
 
-The reason Superpixels matter is simple: you have more competitors than at any point in the history of the internet, and many more are on the way. Any little thing you can do to stand out — especially things that take very little time — can be game-changers to long-term results.
+### Why Superpixels Exist
 
-The best Superpixels come from documenting every single thing around the web that catches your attention and makes you look twice. If something makes you stop scrolling, take a screenshot, or feel differently about a brand — write down why. That instinct is the raw material for Superpixels.
+Competition is asymmetric. Digital Goliaths have 100x–10,000x your resources — in-house video crews, $200K podcast budgets, 33 full-time content marketers, TV ads for blog posts. Superpixels are the equalizer: they require taste and care, not budget. Smaller players have autonomy and speed as advantages — "their walls are biometric finger scanners of higher ups; ours are swinging cowboy saloon doors."
+
+> "David threw rocks. We're throwing pixels."
+
+### Maximum Pixel Value (MPV)
+
+Every pixel on every page should earn its place. MPV is the mindset of getting maximum value from every pixel you create. Stripe is the standard — "beautiful across every pixel." The Seinfeld parallel: zero improvisation, every detail scripted and perfected. The "last 2% makes a huge impact — pay extra attention and don't rush."
+
+**Prioritization:** Fix SEO and technical foundations first. Superpixels are the "what's next" after the basics are solid. Less than 5% of 1,500+ reviewed sites were memorable — that's the opportunity.
+
+### Superpixels Must Be Personal
+
+> "Because if everyone is doing it, they're just pixels."
+
+The cardinal rule: Superpixels that aren't personal to your brand are just trends. GameStop's "Level complete" on job applications works because they're a game retailer — it would be bizarre on a law firm's site. Rules:
+
+1. **Examples are frameworks** — fill in details that fit YOUR brand
+2. **Take concepts and give them YOUR OWN SPIN** — never copy verbatim
+3. **The more personal, the longer they stay interesting** — generic dies fast
+4. **If you can't explain why it fits your brand, it doesn't**
+
+### The Personalization Test
+
+Before implementing any Superpixel, ask:
+1. Is this personal to my brand/mission?
+2. Would this still be remarkable if every site did it?
+3. Does this fit my voice, not someone else's?
+4. Would my specific audience get it without explanation?
+
+### The Touchpoint Audit
+
+For every interaction happening hundreds or thousands of times per month, ask "Is there a Superpixel opportunity here?":
+- Auto-response emails and confirmation flows
+- Contact form confirmations and thank-you pages
+- Footer copy, 404 pages, loading states, error messages
+- Navigation labels, form microcopy, placeholder text
+- Social media bios, email signatures, robots.txt
+
+### The Competitive Advantage Checklist
+
+- What can I do that my specific competitors literally cannot?
+- What will competitors not do because of bureaucracy/legal/brand risk?
+- Where are competitors missing obvious Superpixel opportunities?
+- What personal touches would be "too unprofessional" for a Goliath but perfect for me?
+- Where am I still using a generic template where I could inject personality?
 
 **The core question for every pixel on every page:** Is this earning its place, or is it just there because that's what websites do?
+
+---
+
+## Design Pattern Catalog
+
+See `DESIGN-PATTERNS.md` for the full catalog of 102 implementable patterns extracted from Glen Allsopp's Super Design module, organized by:
+
+| Category | Patterns | Key highlights |
+|----------|----------|---------------|
+| 404 Pages | 6 | URL-aware suggestions, email capture, niche illustrations |
+| Buttons | 8 | Shadow-on-hover, reveal-on-hover text, gradient shimmer, toggle switch |
+| Call to Action | 11 | Micro-CTAs, overlapping headlines, mid-article breaks, slide-ins |
+| Charts & Tables | 8 | Dark-on-light charts, emoji tables, progress bar TOC, handwritten labels |
+| Fonts | 5 | Premium font differentiation, correct mobile weight, font smoothing |
+| Graphics & Social Cards | 5 | Angled screenshots, blueprint grids, event pass cards |
+| Headers | 8 | Fade-to-white heroes, overlapping images, scroll-following elements |
+| Navigation | 11 | Trending bars, full-screen overlays, goal-based nav, oversized text |
+| Overall Design | 6 | Book landing pages, newsletter pages, dark theme, 3D elements |
+| Product Features | 9 | Highlight-and-fade, hidden brand spelling, tabbed showcases |
+| Related Articles | 6 | Mixed layouts, horizontal scroll, inconsistent card sizes |
+| Social Proof | 17 | Scrolling tickers, angled cards, payment-page proof, animated counters |
+
+Each pattern includes the specific CSS/JS implementation details. When building any UI component, check the relevant category for inspiration.
